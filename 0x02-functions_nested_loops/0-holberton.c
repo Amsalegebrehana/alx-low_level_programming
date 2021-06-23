@@ -2,8 +2,7 @@
 int main(void)
 {
 char s[] = "Holberton";
-int i = 0;
-for(int i =0; i<9;i++)
+for(int i=0; i<9;i++)
 {
 _putchar(s[i]);
 }
