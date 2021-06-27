@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
-* more_numbers - prints more numbers
-* Return:void
+*more_numbers - prints more numbers
+*Return:void
 */
 void more_numbers(void)
 {
@@ -20,5 +20,5 @@ c = j % 10;
 _putchar('0' + c);
 }
 _putchar('\n');
-} 
+}
 }
