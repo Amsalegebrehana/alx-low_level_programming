@@ -1,0 +1,21 @@
+#include "holberton.h"
+/**
+*rev_string - prints reversed string, followed by a new line
+*@s: pointer to the string to print
+*Return: void
+*/
+void rev_string(char *s)
+{
+int i;
+
+i = sizeof(s) -1;
+ char *str[i] = '0';
+ 
+ while (i >= 0)
+   {
+     str = str + s[i];
+     i--;
+   }
+ s = str;
+
+}
